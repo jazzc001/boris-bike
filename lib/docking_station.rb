@@ -9,7 +9,7 @@ class DockingStation
     end
 
     def release_bike
-        if @bikes.empty?
+        if empty?
           raise Exception.new 'No bikes yet!'
         else
           @bikes.pop
@@ -28,5 +28,9 @@ class DockingStation
 
     def full?
         @bikes.size == @defaul_capacity
+    end
+
+    def empty?
+        @bikes.empty?
     end
 end
