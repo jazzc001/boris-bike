@@ -5,7 +5,7 @@ class DockingStation
 
     def initialize
       @bikes = []
-      @defaul_capacity = 20
+      @DEFAULT_CAPACITY = 20
     end
 
     def release_bike
@@ -27,7 +27,7 @@ class DockingStation
     private
 
     def full?
-        @bikes.size == @defaul_capacity
+        @bikes.size == @DEFAULT_CAPACITY
     end
 
     def empty?
