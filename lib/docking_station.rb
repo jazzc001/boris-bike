@@ -5,7 +5,7 @@ class DockingStation
 
     def initialize
       @bikes = []
-      @defaul_capacity = 5
+      @defaul_capacity = 20
     end
 
     def release_bike
@@ -17,10 +17,16 @@ class DockingStation
     end
 
     def docking_bike(bike)
-        if @bikes.size == @defaul_capacity
+        if full?
           raise Exception.new 'Station is full!'
         else
           return @bikes << bike
         end
+    end
+
+    private
+
+    def full?
+        @bikes.size == @defaul_capacity
     end
 end
