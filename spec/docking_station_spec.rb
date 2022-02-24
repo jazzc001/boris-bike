@@ -30,4 +30,13 @@ describe DockingStation do
       subject.release_bike
     end.to raise_error
   end
+
+  it 'raise_error when docking station is full' do
+
+    expect do
+      @defaul_capacity.times {|subject| subject.docking_bike(bike) }
+      
+    end.to raise_error
+  end 
+
 end
