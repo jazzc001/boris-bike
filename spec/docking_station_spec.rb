@@ -18,4 +18,10 @@ describe DockingStation do
     bike = Bike.new
     expect(subject.docking_bike(bike)).to eq(bike)
   end
+
+  it 'raise_error when no bike in docking station' do
+    expect do
+      subject.release_bike
+    end.to raise_error
+  end
 end
