@@ -23,7 +23,7 @@ class DockingStation
       end
     end
 
-    def docking_bike(bike, condition = "good")
+    def dock(bike, condition = "good")
         full?
         if condition == "broken"
             bike.condition = "broken"
