@@ -1,5 +1,5 @@
-# boris-bike project
-  In the project, it is a software in which it allows bike user and maintainer to use, manage and replace the bike in different docking stations. 
+# Boris-bike Challenge
+  This is a challenge exercise in Makers Academy on week one.  In the project, it is a software in which it allows bike user and maintainer to use, manage and replace the bike in different docking stations. 
 
 # Motivation
 Through out this project, I have learnt several basic concepts of Object oriented programming.  
@@ -29,4 +29,10 @@ Through out this project, I have learnt several basic concepts of Object oriente
 
  # Tests 
 By following TDD, this project is build on running rspec.
+
+# Credits
+
+<a href="https://github.com/samuelmbp/boris-bike/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=samuelmbp/boris-bike" />
+</a>
 
