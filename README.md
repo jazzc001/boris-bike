@@ -5,9 +5,9 @@ Through out this project, I have learnt several basic concepts of Object oriente
    * install gem files
       1) gem install rspec
       2) rspec --init
-      3) add 
-         source 'https://rubygems.org' /n
-         gem 'rspec'/n
+      3) add <br />
+         source 'https://rubygems.org' <br />
+         gem 'rspec'<br />
          in gemfile
       4) bundle install
    * run rspec and identify errors through stack trace process
